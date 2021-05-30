@@ -19,7 +19,7 @@ export function getGetSignedUrl(key: string): string {
   return s3.getSignedUrl("getObject", {
     Bucket: config.aws_media_bucket,
     Key: key,
-    Expires: signedUrlExpireSeconds,
+    Expires: signedUrlExpireSeconds  
   });
 }
 
@@ -31,5 +31,6 @@ export function getPutSignedUrl(key: string): string {
     Bucket: config.aws_media_bucket,
     Key: key,
     Expires: signedUrlExpireSeconds,
+    ContentType: 'application/octet-stream'
   });
 }

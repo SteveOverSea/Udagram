@@ -1,3 +1,4 @@
+//@ts-ignore
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders, HttpRequest, HttpEvent } from '@angular/common/http';
 import { environment } from '../../environments/environment';
@@ -56,8 +57,9 @@ export class ApiService {
 
   async upload(endpoint: string, file: File, payload: any): Promise<any> {
     const signed_url = (await this.get(`${endpoint}/signed-url/${file.name}`)).url;
-
-    const headers = new HttpHeaders({'Content-Type': file.type});
+    console.log("Signed Url");
+    console.log(signed_url);
+    const headers = new HttpHeaders({"Content-Type": 'application/octet-stream' });
     const req = new HttpRequest( 'PUT', signed_url, file,
                                   {
                                     headers: headers,
