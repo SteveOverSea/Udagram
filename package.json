@@ -5,7 +5,7 @@
         "frontend:install": "cd ./udagram-frontend && npm install",
         "backend:build": "cd ./udagram-api && npm run build",
         "frontend:build": "cd ./udagram-frontend && npm run build",
-        "backend:deploy": "cd ./udgaram-api && npm run deploy",
+        "backend:deploy": "cd ./udagram-api && npm run deploy",
         "frontend:deploy": "cd ./udagram-frontend && npm run deploy"
     },
     "devDependencies": {}
