@@ -69,6 +69,7 @@ router.post('/',
         return res.status(400).send({message: 'File url is required.'});
       }
 
+      //@ts-ignore
       const item = await new FeedItem({
         caption: caption,
         url: fileName,
