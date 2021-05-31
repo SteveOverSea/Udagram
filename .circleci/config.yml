@@ -10,6 +10,7 @@ jobs:
     steps:
       - node/install
       - checkout
+      - aws-cli/setup
       - run:
           name: Front-End Install
           command: npm run frontend:install
