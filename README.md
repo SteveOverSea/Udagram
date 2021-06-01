@@ -30,6 +30,8 @@ See additional documentation in the documentation folder.
 
 [![CircleCI Pipepline](https://i.postimg.cc/zGTx2310/Screenshot-2021-06-01-at-08-45-15.png)](https://postimg.cc/1850fmXq)
 
+[![CircleCI Pipepline](https://i.postimg.cc/VNZrwBqg/Screenshot-2021-06-01-at-09-25-42.png)](https://postimg.cc/hJxPbm3Q)
+
 added secrets here
 
 [![Secrets in CircleCi](https://i.postimg.cc/gjqTXJkM/Screenshot-2021-06-01-at-09-20-54.png)](https://postimg.cc/N2F4ZQXT)
