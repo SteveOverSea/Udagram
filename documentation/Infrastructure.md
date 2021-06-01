@@ -13,4 +13,4 @@
 
 ## Infrastracture Schema
 
-[![Infrastructure Schema](https://i.postimg.cc/hPcvQ5tv/Untitled-Diagram-2.png)](https://postimg.cc/QVYhRS5Z)
+![Infrastructure Schema](./images/architecture.png)

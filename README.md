@@ -12,29 +12,37 @@ See additional documentation in the documentation folder.
 
 ### Elastic Beanstalk Environment
 
-[![Elastic Beanstalk Environment](https://i.postimg.cc/L6cyVLGJ/Screenshot-2021-06-01-at-08-42-35.png)](https://postimg.cc/56mq4Y4J)
+![Elastic Beanstalk Environment](./documentation/images/eb.png)
 
 ### FrontEnd S3 Bucket
 
-[![FrontEnd S3 Bucket](https://i.postimg.cc/ZR5jqcvM/Screenshot-2021-06-01-at-08-43-24.png)](https://postimg.cc/bG41C1Tx)
+![FrontEnd S3 Bucket](./documentation/images/frontend_s3.png)
 
 ### Media S3 Bucket
 
-[![Media S3 Bucket](https://i.postimg.cc/SKrDq5R9/Screenshot-2021-06-01-at-08-43-40.png)](https://postimg.cc/p9mDJsDV)
+![Media S3 Bucket](./documentation/images/media_s3.png)
 
 ### PostgreSQL RDS database
 
-[![PostgreSQL RDS database](https://i.postimg.cc/1zPJkPmP/Screenshot-2021-06-01-at-08-44-05.png)](https://postimg.cc/sM6YWkG0)
+![PostgreSQL RDS database](./documentation/images/rds.png)
 
 ### CircleCI Pipeline
 
-[![CircleCI Pipepline](https://i.postimg.cc/zGTx2310/Screenshot-2021-06-01-at-08-45-15.png)](https://postimg.cc/1850fmXq)
+![CircleCI Pipeline](./documentation/images/pipeline1.png)
 
-[![CircleCI Pipepline](https://i.postimg.cc/VNZrwBqg/Screenshot-2021-06-01-at-09-25-42.png)](https://postimg.cc/hJxPbm3Q)
+![CircleCI Pipeline](./documentation/images/pipeline2.png)
 
 added secrets here
 
-[![Secrets in CircleCi](https://i.postimg.cc/gjqTXJkM/Screenshot-2021-06-01-at-09-20-54.png)](https://postimg.cc/N2F4ZQXT)
+![CircleCI Pipeline environment variables](./documentation/images/pipeline%20env.png)
+
+Schema
+
+![Pipeline Schema](./documentation/images/pipeline.png)
+
+### Architecture
+
+![Architecture](./documentation/images/architecture.png)
 
 ## Built With
 
